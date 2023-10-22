@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    width: 100%;
+    
+    
+}
+/* start nav style */
+
+nav{
+    width: 100%;
+    height:40px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px #ccc;
+    padding: 8px 11px;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    z-index: 5;
+    
+
+}
+.nav-left{
+    display: flex;
+    /* width:300px; */
+} 
+
+.fa-facebook{
+    color:blue;
+    margin: 4px 4px;
+    font-size: 40px;;
+}
+.search{
+   
+    position:relative;
+  
+}
+
+.fa-magnifying-glass{
+    color:#8b8989;
+    position: absolute;
+    left:65px;
+    top:28px;
+  
+   
+
+}
+ input{
+    width:150px;
+    height:35px;
+    border:0px;
+    border-radius:20px;
+    background-color:#f8f5f5;
+    font-size: 20px;
+    padding: 0px 30px;
+    margin:9px 0px;
+
+
+ }
+ input:focus{
+    outline:none;
+ }
+
+ .nav-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+ }
+ 
+ .nav-middle a{
+   
+    margin:0px 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#a39898;
+    padding:9px;
+    
+}
+    
+
+ 
+ .nav-middle a:hover{
+    background-color: #ccc;
+   
+
+  
+ }
+ .nav-middle a:focus{
+    color:#00f;
+    border-bottom:3px #00f;
+   
+ }
+ 
+.active{
+    color:#00f;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 26px;
+
+  
+    
+
+
+}
+.chat{
+    background-color: #ccc;
+    color:#000;
+    margin: 10px 8px;
+    padding:5px;
+    text-decoration: none;
+    border-radius: 50%;
+  
+   
+   
+
+}
+
+
+
+
+img{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    margin:22px 0px ;
+}
+
+.all-sec{
+    display: flex; 
+    justify-content: space-between;
+    width:100%;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+
+
+    
+}
+.left-sec{
+    
+    width: 350px;
+    position: sticky;
+    left: 0px;
+    top:56px;
+   overflow: hidden;
+    
+}
+.left-sec:hover{
+    overflow: scroll;
+
+}
+.left-sec ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin:0px -20px  ;
+    
+
+}
+.profile{
+    padding:5px;
+    width: 50px;
+    border-radius: 50%;
+  
+}
+
+
+
